@@ -11,15 +11,15 @@ EXAMPLE:
 python -m clusterEvaluation test.csv normalize 10 variational 0.02 4
 
 Arguments
-1: data file in csv format (each row is one sample)
-2: normalization of variables ("normalize") or not "none"
-3: maximal number of clusters that should be considered (e.g. if 10, then consider number of clusters 2,3,4,5,...,10)
-6: "variational" or "MCMC" approximation of the proposed method
-7: beta (recommended value 0.02)
+1: data file in csv format (each row is one sample)  
+2: normalization of variables ("normalize") or not "none"  
+3: maximal number of clusters that should be considered (e.g. if 10, then consider number of clusters 2,3,4,5,...,10)  
+6: "variational" or "MCMC" approximation of the proposed method  
+7: beta (recommended value 0.02)  
 8: number of cpus
 
-Assumes that the data is saved as a csv file with
-number of rows = number of samples
+Assumes that the data is saved as a csv file with  
+number of rows = number of samples,  
 number of columns = number of variables
 
 
