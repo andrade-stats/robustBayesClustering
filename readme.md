@@ -1,7 +1,7 @@
 
 
-Contains the code for variable clustering and clustering evaluation according to 
-"Robust Bayesian Model Selection for Variable Clustering with the Gaussian Graphical Model"
+Contains the code for variable clustering and clustering evaluation according to our article
+"Robust Bayesian Model Selection for Variable Clustering with the Gaussian Graphical Model", Andrade et al., 2018
 
 required python packages: numpy, scipy, tabulate
 
