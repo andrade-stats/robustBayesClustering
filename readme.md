@@ -10,7 +10,7 @@ In order to cluster your data use "clusterEvaluation.py".
 EXAMPLE:
 python -m clusterEvaluation test.csv normalize 10 variational 0.02 4
 
-Arguments
+Arguments  
 1: data file in csv format (each row is one sample)  
 2: normalization of variables ("normalize") or not "none"  
 3: maximal number of clusters that should be considered (e.g. if 10, then consider number of clusters 2,3,4,5,...,10)  
